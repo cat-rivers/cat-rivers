@@ -7,3 +7,5 @@
 # Portafolio
 
 [pokemons](./portafolio/pokemon/index.html)
+
+[RandomColors](./portafolio/random-color/index.html)
