@@ -3,3 +3,7 @@
 - Want to learn: Bootstrap or Bulma, React and
   eventually Clojure
 - <3
+
+# Portafolio
+
+[pokemons](./portafolio/pokemon/index.html)
