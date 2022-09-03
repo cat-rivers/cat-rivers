@@ -3,4 +3,3 @@
 - Want to learn: Bootstrap or Bulma, React and
   eventually Clojure
 - <3
-- Toni is a pupui
