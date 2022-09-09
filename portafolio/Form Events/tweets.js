@@ -1,5 +1,13 @@
 const tweetForm = document.querySelector("#tweetForm");
 const tweetList = document.querySelector("#tweetList");
+
+// const lis = document.querySelectorAll("li");
+// for (let li of lis) {
+//   li.addEventListener("click", function () {
+//     li.remove();
+//   });
+// }
+
 tweetForm.addEventListener("submit", function (e) {
   //   const usernameInput = document.querySelectorAll("input")[0];
   //   const tweetInput = document.querySelectorAll("input")[1];
@@ -20,3 +28,7 @@ const addTweet = (username, tweet) => {
   newTweet.append(`- ${tweet}`);
   tweetList.append(newTweet);
 };
+
+tweetList.addEventListener("click", function (e) {
+  e.target.nodeName === "LI" && e.target.remove();
+});
