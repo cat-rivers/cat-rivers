@@ -1,9 +1,9 @@
 - Hi, I’m @cat-rivers
 - I’m currently learning web development
-- Want to learn: Bootstrap or Bulma, React and
+- Want to learn: Bootstrap / Bulma, React and
   eventually Clojure
 - <3
-- www.http://cat-rivers.com/
+- http://cat-rivers.com/
 
 # Portafolio
 
