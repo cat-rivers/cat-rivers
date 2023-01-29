@@ -1,7 +1,6 @@
 - Hi, I’m @cat-rivers
-- I’m currently learning web development
-- Want to learn: Bootstrap / Bulma, React and
-  eventually Clojure
+- Former Clinical Psychologist and business owner, now career changer!
+- I’m currently learning web development (JavaScript , React , node.js)
 - <3
 - http://cat-rivers.com/
 
