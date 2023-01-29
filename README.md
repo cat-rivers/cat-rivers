@@ -10,6 +10,8 @@
 
 [React Todo app]
 
+[Finnish jokes](./portafolio/finnishJokes/jokes.html)
+
 [pokemons](./portafolio/pokemon/index.html)
 
 [RandomColors](./portafolio/random-color/index.html)
