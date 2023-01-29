@@ -6,9 +6,9 @@
 
 # Portafolio
 
-[CLI-library](./portafolio/CLI-libraryUI/)
+[CLI-library]
 
-[React Todo app](./portafolio/react-todo-app/)
+[React Todo app]
 
 [pokemons](./portafolio/pokemon/index.html)
 
