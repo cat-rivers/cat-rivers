@@ -6,6 +6,10 @@
 
 # Portafolio
 
+[CLI-library](./portafolio/CLI-libraryUI/)
+
+[React Todo app](./portafolio/react-todo-app/)
+
 [pokemons](./portafolio/pokemon/index.html)
 
 [RandomColors](./portafolio/random-color/index.html)
