@@ -6,9 +6,9 @@
 
 # Portafolio
 
-[CLI-library]
+[CLI-library](./portafolio/CLI-libraryUI)
 
-[React Todo app]
+[React Todo app](./portafolio/react-todo-app)
 
 [Finnish jokes](./portafolio/finnishJokes/jokes.html)
 
