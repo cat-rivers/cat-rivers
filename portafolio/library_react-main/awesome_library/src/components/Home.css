@@ -1,0 +1,64 @@
+.bodyContainer {
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 35px;
+  margin: 50px 100px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.book-image img {
+  width: 70%;
+  border: 6px solid black;
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .book-image img {
+    display: none;
+  }
+
+  .bodyContainer {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .home-title {
+    margin-top: 95px;
+    font-size: 60px;
+  }
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  font-family: "Bangers", cursive;
+  text-shadow: -6px 4px rgb(254, 191, 2);
+  letter-spacing: 4px;
+}
+
+.text p {
+  text-align: justify;
+}
+
+.text h3 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Bangers", cursive;
+  text-shadow: -6px 4px rgb(254, 191, 2);
+  letter-spacing: 4px;
+}
+
+#keep-id-safe-message {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logged-name {
+  margin-top: 95px;
+}
