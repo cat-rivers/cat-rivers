@@ -8,7 +8,7 @@
 
 [CLI-library](./portafolio/CLI-libraryUI)
 
-[React_Libraty_group](./portafolio/react_library/)
+[React_Library_group](./portafolio/react_library/)
 
 [React Todo app](./portafolio/react-todo-app)
 
