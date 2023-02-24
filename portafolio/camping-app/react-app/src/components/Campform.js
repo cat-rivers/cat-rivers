@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Form, Col, Row, Container } from "react-bootstrap";
-
+import axios, { formToJSON } from "axios";
 const randomId = () =>
   Math.floor(Math.random() * 100) * Math.floor(Math.random() * 100);
 
@@ -18,8 +18,9 @@ export const CampForm = () => {
       description: e.target.description.value,
     };
     setCampsite(targetObject);
+    axios.post("/campsites", targetObject);
+    e.target.reset();
   };
-  console.log("title: ", campsite.price);
 
   return (
     <>
@@ -57,11 +58,7 @@ export const CampForm = () => {
             </Form>
           </Col>
           <Col>
-            <div className="text-center ">
-              <h2 className="my-4">Campsite: {campsite.title}</h2>
-              <p> Price/night: {campsite.price}</p>
-              <p> Description: {campsite.description}</p>
-            </div>
+            <pre>{campsite && JSON.stringify(campsite, null, 4)} </pre>
           </Col>
         </Row>
       </Container>

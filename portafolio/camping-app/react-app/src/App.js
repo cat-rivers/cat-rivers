@@ -1,23 +1,21 @@
-import "./App.css";
 import { useState, useEffect } from "react";
-import { CampForm } from "./Campform";
+import { CampForm } from "./components/Campform";
+import { LandingPage } from "./components/LandingPage";
+import { Search } from "./components/Search";
+import { Container, Col, Row } from "react-bootstrap";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    fetch("/campsites")
-      .then(res => res.json())
-      .then(data => setData(data.campgrounds));
-  }, []);
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>{!data ? "Loading..." : JSON.stringify(data)}</p>
-        <CampForm />
-      </header>
-    </div>
+    <Container>
+      <div className="App">
+        <header className="App-header">
+          {/* <LandingPage />
+          <Search /> */}
+          <CampForm />
+        </header>
+      </div>
+    </Container>
   );
 }
 
