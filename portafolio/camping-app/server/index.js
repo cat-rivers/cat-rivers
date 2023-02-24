@@ -3,10 +3,12 @@ const PORT = 3001;
 const path = require("path");
 const app = express(); // create express app
 const fs = require("fs");
+const bodyParser = require("body-parser");
 
+app.use(bodyParser.json());
 // read db.json
 const getCampsites = () => {
-  const data = fs.readFileSync("./db/campsites.json");
+  const data = fs.readFileSync("./campsites.json");
   return JSON.parse(data.toString());
 };
 
@@ -24,14 +26,21 @@ app.get("/campsites", (req, res) => {
   res.json(getCampsites());
 });
 
-app.post("/campsites", (req, res) => {});
-const createCampsite = newPost => {
-  return axios.post(baseUrl, newPost).then(response => response.data);
+const updateDb = newDb => {
+  fs.writeFileSync("./campsites.json", JSON.stringify(newDb, null, 4));
 };
 
-//or return it as json
-app.get("/api", (req, res) => {
-  res.json({ message: "hello from your api!" });
+const postCampsiteHandler = campsite => {
+  const campsites = getCampsites();
+  const updatedCampsites = {
+    ...campsites,
+    campgrounds: [...campsites.campgrounds, campsite],
+  };
+  updateDb(updatedCampsites);
+};
+
+app.post("/campsites", (req, res) => {
+  postCampsiteHandler(req.body);
 });
 
 /* when the request comes to the server for any route and route you’re trying to 
@@ -43,9 +52,9 @@ and will display the client-side route page.*/
 //   res.sendFile(path.join(__dirname, "..", "build", "index.html"));
 // });
 
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "../react-app/build", "index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.resolve(__dirname, "../react-app/build", "index.html"));
+// });
 
 // start express server on port 5000
 app.listen(PORT, () => {

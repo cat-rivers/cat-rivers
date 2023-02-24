@@ -1,0 +1,53 @@
+{
+    "campgrounds": [
+        {
+            "id": 1234,
+            "title": "camp quechua",
+            "location": "Denver",
+            "price": 45,
+            "description": "loremo lorem loremo lorem lorem ipsum lorem vitae doloras que sea "
+        },
+        {
+            "id": 2345,
+            "title": "camp segunda",
+            "location": "Denver",
+            "price": 45,
+            "description": "loremo lorem loremo lorem lorem ipsum lorem vitae doloras que sea "
+        },
+        {
+            "id": 3456,
+            "title": "camp tercera",
+            "location": "Denver",
+            "price": 45,
+            "description": "loremo lorem loremo lorem lorem ipsum lorem vitae doloras que sea "
+        },
+        {
+            "id": 2279,
+            "title": "cata",
+            "location": "dknsdj",
+            "price": "33",
+            "description": "kjcfnkjdfgnkjdfnjkfd"
+        },
+        {
+            "id": 1950,
+            "title": "fsdf",
+            "location": "dsfsd",
+            "price": "33",
+            "description": "dsfs"
+        },
+        {
+            "id": 1564,
+            "title": "fsdf",
+            "location": "dsfsd",
+            "price": "33",
+            "description": "dsfs"
+        },
+        {
+            "id": 6873,
+            "title": "cata",
+            "location": "cata",
+            "price": "1",
+            "description": "dff"
+        }
+    ]
+}
