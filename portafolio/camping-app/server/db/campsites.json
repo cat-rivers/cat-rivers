@@ -1,0 +1,27 @@
+{
+  "campgrounds": [
+    {
+      "id": 1234,
+      "title": "camp quechua",
+      "location": "Denver",
+      "price": 45,
+      "description": "loremo lorem loremo lorem lorem ipsum lorem vitae doloras que sea "
+    },
+
+    {
+      "id": 2345,
+      "title": "camp segunda",
+      "location": "Denver",
+      "price": 45,
+      "description": "loremo lorem loremo lorem lorem ipsum lorem vitae doloras que sea "
+    },
+
+    {
+      "id": 3456,
+      "title": "camp tercera",
+      "location": "Denver",
+      "price": 45,
+      "description": "loremo lorem loremo lorem lorem ipsum lorem vitae doloras que sea "
+    }
+  ]
+}
