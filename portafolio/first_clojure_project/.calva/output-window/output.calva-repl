@@ -1,0 +1,332 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+
+moooicati
+js/alert
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connecting using "undefined" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "undefined"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Aborting connect, error determining connect sequence.
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; nREPL Connection was closed
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Connecting using "undefined" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "undefined"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Aborting connect, error determining connect sequence.
+(+ 1 1)
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+(+ 1)
+1
+cljs꞉cljs.user꞉> 
+nil
+cljs꞉first.todo꞉> 
+3
+cljs꞉first.todo꞉> 
+; nREPL Connection was closed
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+2
+cljs꞉first.todo꞉> 
+nil
+cljs꞉first.todo꞉> 
+["buy butts" "kick butts" "spank butts" "massage butts"]
+cljs꞉first.todo꞉> 
+["buy butts" "kick butts" "spank butts" "massage butts" ":bloo"]
+cljs꞉first.todo꞉> 
+#object[HTMLInputElement [object HTMLInputElement]]
+cljs꞉first.todo꞉> 
+"FOOOOOO"
+cljs꞉first.todo꞉> 
+#'first.todo/input
+cljs꞉first.todo꞉> 
+"FOOOOOO"
+cljs꞉first.todo꞉> 
+"FOOOOsdfdsfOO"
+cljs꞉first.todo꞉> 
+#object[HTMLButtonElement [object HTMLButtonElement]]
+cljs꞉first.todo꞉> 
+nil
+cljs꞉first.todo꞉> 
+nil
+cljs꞉first.todo꞉> 
+nil
+cljs꞉first.todo꞉> 
+nil
+cljs꞉first.todo꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (let [input (js/document.querySelector "input[name=content]")]
+; 
+;     (for [new-todo ["yksi" "kaksi" "kolme"]]
+;       (set! (.-value input) 
+;             new-todo)
+;       
+;       (.click (js/document.querySelector "button"))))
+; null
+; Wrong number of args (3) passed to: cljs.core/for
+cljs꞉first.todo꞉> 
+(nil nil nil)
+cljs꞉first.todo꞉> 
+(nil nil nil)
+cljs꞉first.todo꞉> 
+(4 5 6)
+cljs꞉first.todo꞉> 
+nil
+cljs꞉first.todo꞉> 
+nil
+cljs꞉first.todo꞉> 
+nil
+cljs꞉first.todo꞉> 
+nil
+cljs꞉first.todo꞉> 
+[1 2 43]
+cljs꞉first.todo꞉> 
+(2 3 44)
+cljs꞉first.todo꞉> 
+("2" "3" "44")
+cljs꞉first.todo꞉> 
+#'first.todo/takes-2-vals
+cljs꞉first.todo꞉> 
+#'first.todo/takes-1-val-because-one-already-given
+cljs꞉first.todo꞉> 
+3
+cljs꞉first.todo꞉> 
+#'first.todo/add
+cljs꞉first.todo꞉> 
+2
+cljs꞉first.todo꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (defn add-to-one (partial add 1))
+; Syntax error macroexpanding cljs.core/defn.
+; Call to cljs.core/defn did not conform to spec.
+; -- Spec failed --------------------
+; 
+;   (... (partial add 1))
+;        ^^^^^^^^^^^^^^^
+; 
+; should satisfy
+; 
+;   vector?
+; 
+; or value
+; 
+;   (... (partial ... ...))
+;         ^^^^^^^
+; 
+; should satisfy
+; 
+;   vector?
+; 
+; -- Relevant specs -------
+; 
+; :shadow.cljs.devtools.cljs-specs/param-list:
+;   (clojure.spec.alpha/and
+;    clojure.core/vector?
+;    (clojure.spec.alpha/cat
+;     :params
+;     (clojure.spec.alpha/* :shadow.cljs.devtools.cljs-specs/binding-form)
+;     :var-params
+;     (clojure.spec.alpha/?
+;      (clojure.spec.alpha/cat
+;       :ampersand
+;       #{'&}
+;       :var-form
+;       :shadow.cljs.devtools.cljs-specs/binding-form))))
+; :shadow.cljs.devtools.cljs-specs/params+body:
+;   (clojure.spec.alpha/cat
+;    :params
+;    :shadow.cljs.devtools.cljs-specs/param-list
+;    :body
+;    (clojure.spec.alpha/alt
+;     :prepost+body
+;     (clojure.spec.alpha/cat
+;      :prepost
+;      clojure.core/map?
+;      :body
+;      (clojure.spec.alpha/+ clojure.core/any?))
+;     :body
+;     (clojure.spec.alpha/* clojure.core/any?)))
+; :shadow.cljs.devtools.cljs-specs/defn-args:
+;   (clojure.spec.alpha/cat
+;    :fn-name
+;    clojure.core/simple-symbol?
+;    :docstring
+;    (clojure.spec.alpha/? clojure.core/string?)
+;    :meta
+;    (clojure.spec.alpha/? clojure.core/map?)
+;    :fn-tail
+;    (clojure.spec.alpha/alt
+;     :arity-1
+;     :shadow.cljs.devtools.cljs-specs/params+body
+;     :arity-n
+;     (clojure.spec.alpha/cat
+;      :bodies
+;      (clojure.spec.alpha/+
+;       (clojure.spec.alpha/spec
+;        :shadow.cljs.devtools.cljs-specs/params+body))
+;      :attr-map
+;      (clojure.spec.alpha/? clojure.core/map?))))
+; 
+; -------------------------
+; Detected 1 error
+; 
+cljs꞉first.todo꞉> 
+#'first.todo/add-to-one
+cljs꞉first.todo꞉> 
+5
+cljs꞉first.todo꞉> 
+#'first.todo/add
+cljs꞉first.todo꞉> 
+4
+cljs꞉first.todo꞉> 
+#'first.todo/add-to-1-and-2
+cljs꞉first.todo꞉> 
+4
+cljs꞉first.todo꞉> 
+4
+cljs꞉first.todo꞉> 
+5
+cljs꞉first.todo꞉> 
+6
+cljs꞉first.todo꞉> 
+#object[first$todo$todo_list_app_render]
+cljs꞉first.todo꞉> 
+#'first.todo/add
+cljs꞉first.todo꞉> 
+4
+cljs꞉first.todo꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+;  Use of undeclared Var first.todo/todos-state
+; --------------------------------------------------------------------------------
+; 
+cljs꞉first.todo꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:8
+;  Use of undeclared Var first.todo/todos-state
+; --------------------------------------------------------------------------------
+; 
+cljs꞉first.todo꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:6
+;  Use of undeclared Var first.todo/todos-state
+; --------------------------------------------------------------------------------
+; 
+cljs꞉first.todo꞉> 
